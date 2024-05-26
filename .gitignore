@@ -1,0 +1,84 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build results
+bin/
+obj/
+out/
+
+# Ignore  local dev/debug config
+Service/Properties/launchSettings.json
+Service/appsettings.Development.json
+Service/appsettings.json
+Service/Service.csproj
+Service/Service.sln
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Mac files
+.DS_Store
+
+# Windows Thumbnail cache
+Thumbs.db
+
+# User secrets (if not handled via environment vars)
+**/secrets.json
+
+# Node modules (for SPA projects)
+node_modules/
+
+# Logs
+*.log
+
+# Publish directory
+publish/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored if using PackageReference
+packages/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# .NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.sql
+*.pdb
+*.cache
+*.tmp
+
+# Local history for VS
+.localhistory/
+
+# IIS Express
+.vs/
+
+
